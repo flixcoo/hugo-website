@@ -2,10 +2,28 @@ baseURL: 'https://felixkirchner.de'
 languageCode: 'de-de'
 title:  'Felix Kirchner'
 theme: 'hextra'
+defaultContentLanguage: "de"
+defaultContentLanguageInSubdir: false
 
 params:
+  theme:
+    default: dark
+    displayToggle: false
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: full
+
+  layout:
+    sidebar = false
+
+  banner:
+    key: 'announcement-cabo-counter'
+    message: |
+      Cabo Counter ist jetzt im [App Store](https://apps.apple.com/) erhältlich! 🎉
+
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
       path: images/f-logo_transparent_black.png
@@ -13,55 +31,59 @@ params:
       width: 30
       height: 30
 
-  theme:
-    default: dark
-    displayToggle: false
-
-  page:
-    # full (100%), wide (90rem), normal (1280px)
-    width: wide
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+    menu:
+      - name: Impressum
+        pageRef: /legal
+        weight: 10
+      - name: Datenschutz
+        pageRef: /privacy
+        weight: 10
 
   externalLinkDecoration: true
-
-  banner:
-    key: 'announcement-welcome'
-    message: |
-      Willkommen auf meiner neuen Website!
 
 menu:
   main:
     - name: '&Uuml;ber mich'
-      pageRef: /ueber-mich
-      weight: 3
+      pageRef: /about
+      weight: 1
     - name: 'Projekte'
       identifier: projects
-      pageRef: /projekte
       weight: 1
+    - name: 'Alle Projekte'
+      pageRef: /projects/
+      weight: 1
+      parent: projects
     - name: 'Cabo Counter'
-      pageRef: /projekte/cabo-counter
+      pageRef: /projects/cabo-counter
+      weight: 1
+      parent: projects
+    - name: 'WatchWise'
+      pageRef: /projects/watchwise
+      weight: 1
+      parent: projects
+    - name: 'Game Tracker'
+      pageRef: /projects/gametracker
       weight: 1
       parent: projects
     - name: Suche
-      weight: 4
+      weight: 2
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/flixcoo"
+      weight: 3
+      url: 'https://github.com/flixcoo'
       params:
         icon: github
     - name: Instagram
-      weight: 5
-      url: "https://instagram.com/flixcoo"
+      weight: 4
+      url: 'https://instagram.com/flixcoo'
       params:
         icon: instagram
-    - name: Mail
+    - name: Discord
       weight: 5
-      url: "mailto:hi@felixkirchner.de"
+      url: 'https://discord.com/users/478979169628454963'
       params:
-        icon: mail
-    - name: Language Switcher
-      params:
-        type: language-switch
-        label: true # optional, default is false
-        icon: "globe-alt" # optional, default is "translate"
+        icon: discord
