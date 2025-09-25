@@ -1,11 +1,9 @@
 ---
-title: Datenschutzerklärung
+title: Datenschutzerklärung - Cabo Counter
+toc: true
 ---
 
-# Datenschutzerklärung - Cabo Counter
-
-**Verantwortlicher** 
-
+**Verantwortlicher**  
 Felix Kirchner  
 [cabocounter@felixkirchner.de](mailto:cabocounter@felixkirchner.de)
 

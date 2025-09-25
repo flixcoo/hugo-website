@@ -1,20 +1,26 @@
 ---
 menus:
 - footer
-title: Startseite
+title: Felix Kirchner
 toc: false
 ---
+# Felix Kirchner
+Willkommen auf meiner Website :)  
+Hier findest du Informationen über mich, meine Projekte und wie du mich erreichen kannst.
 
 ## Aktuelles
 
 {{< cards >}}
-    {{< card link="/projects/cabo-counter" title="Cabo Counter" image="/images/cabo-counter-logo.png" subtitle="Eine iOS App zum Tracken von Punkten für das Kartenspiel \"Cabo\"" >}}
-{{< /cards >}}
-
-## Sonstiges
-
-{{< cards >}}
-    {{< card link="mailto:hi@felixkirchner.de" title="Kontakt" icon="mail" >}}
-    {{< card link="legal" title="Impressum" icon="scale" >}}
-    {{< card link="privacy" title="Datenschutz" icon="shield-check" >}}
+    {{< user-card 
+        link="/projects/cabo-counter" 
+        title="Cabo Counter" 
+        image="/images/cabo-counter-logo.png" 
+        subtitle="iOS App" 
+    >}}
+    {{< card 
+        link="/projects/"
+        icon="code"
+        title="Meine Projekte"
+        subtitle="Eine Übersicht meiner Projekte"
+    >}}
 {{< /cards >}}

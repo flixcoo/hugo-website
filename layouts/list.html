@@ -9,7 +9,6 @@
                 {{ if and .Title (ne (.Params.showTitle | default true) false) }}
                 {{ if .Title }}<h1 class="hx:text-center">{{ .Title }}</h1>{{ end }}
                 {{ end }}
-                LIST.HTML
                 {{ .Content }}
             </div>
             <div class="hx:mt-16"></div>

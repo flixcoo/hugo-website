@@ -20,7 +20,7 @@ params:
   banner:
     key: 'announcement-cabo-counter'
     message: |
-      Cabo Counter ist jetzt im [App Store](https://apps.apple.com/) erhältlich! 🎉
+      Cabo Counter ab 1.10.2025 im App Store verfügbar  🚀
 
   navbar:
     displayTitle: false
@@ -37,10 +37,14 @@ params:
     menu:
       - name: Impressum
         pageRef: /legal
-        weight: 10
+        weight: 1
+      - name: Kontakt
+        pageRef: mailto:hi@felixkirchner.de
+        weight: 1
       - name: Datenschutz
         pageRef: /privacy
-        weight: 10
+        weight: 1
+
 
   externalLinkDecoration: true
 

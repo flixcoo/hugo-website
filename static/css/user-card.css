@@ -1,0 +1,9 @@
+.custom\:user-card-link-container {text-decoration: none; color: inherit;}
+
+.custom\:user-card-container {display: flex; align-items: flex-start; gap: 1rem; border: 2px solid #282828; border-radius: 12px; padding: 1rem;}
+
+.custom\:user-card-avatar {max-width: 64px; max-height: 64px; border-radius: 8px; object-fit: cover;}
+
+.custom\:user-card-title {margin: 0; font-size: 1.2rem;}
+
+.custom\:user-card-subtitle {margin: 0; font-size: 0.95rem;}
