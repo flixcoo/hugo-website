@@ -11,15 +11,15 @@ Hier findest du Informationen über mich, meine Projekte und wie du mich erreich
 ## Aktuelles
 
 {{< cards >}}
-    {{< user-card 
+    {{< card 
         link="/projects/cabo-counter" 
-        title="Cabo Counter" 
-        image="/images/cabo-counter-logo.png" 
-        subtitle="iOS App" 
+        title="Cabo Counter"
+icon="code"
+        subtitle="Eine iOS App zum Tracken von Punkten in Cabo" 
     >}}
     {{< card 
         link="/projects/"
-        icon="code"
+        icon="collection"
         title="Meine Projekte"
         subtitle="Eine Übersicht meiner Projekte"
     >}}
