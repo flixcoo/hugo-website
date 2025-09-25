@@ -9,12 +9,14 @@ toc: false
     width="400"
 >}}
 
+<!--
 {{< figure
     src="/images/App_Store_Badge_DE_RGB_wht.svg"
     alt="Download on the App Store Badge"
     width="120"
     link="https://apps.apple.com/de/app/cabo-counter/id1664906486"
 >}}
+-->
 
 ### Tracke deine Cabo Punkte!
 
