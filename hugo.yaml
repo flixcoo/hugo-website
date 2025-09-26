@@ -23,7 +23,7 @@ params:
       Cabo Counter ab 1.10.2025 im App Store verfügbar  🚀
 
   navbar:
-    displayTitle: false
+    displayTitle: true
     displayLogo: true
     logo:
       path: images/f-logo_transparent_black.png
