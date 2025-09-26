@@ -6,7 +6,7 @@ toc: false
 {{< figure
 src="/images/profile-picture.png"
 alt="A picture of Felix Kirchner"
-width="400"
+width="300"
 >}}
 
 ### Hey :)
