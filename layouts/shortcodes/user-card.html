@@ -11,32 +11,32 @@
 {{- $tagBorder := not (eq (.Get "tagBorder") "false") | default true -}}
 {{- $tagIcon := .Get "tagIcon" -}}
 
-{{- /* IMMER transparenten Hintergrund wie originale Cards ohne Bild */ -}}
 {{- $linkClass := "hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900" -}}
 
 {{- $external := strings.HasPrefix $link "http" -}}
 {{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
 
 <a
-        class="hextra-card hx:group hx:flex hx:flex-row hx:items-center hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 {{ $linkClass }}"
-        {{- if $link -}}
+    class="hextra-card hx:group hx:flex hx:flex-row hx:items-center hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 {{ $linkClass }}"
+    {{- if $link -}}
         href="{{ $href }}"
-        {{- with $external }}target="_blank" rel="noreferrer"{{ end -}}
-        {{- end -}}
+        {{- with $external }}target="_blank"
+        rel="noreferrer" {{ end -}}
+    {{- end -}}
 >
     {{- if or $image $icon -}}
     <div class="hx:flex hx:items-center hx:justify-center hx:p-4 hx:pr-0">
         {{- with $image -}}
         <div class="hx:w-16 hx:h-16 hx:flex hx:items-center hx:justify-center hx:overflow-hidden hx:rounded-md">
             <img
-                    alt="{{ $title }}"
-                    class="hextra-card-image hx:w-full hx:h-full hx:object-cover"
-                    loading="lazy"
-                    decoding="async"
-                    src="{{ $image | safeURL }}"
-                    {{- with $width }}width="{{ . }}"{{ end -}}
-                    {{- with $height }}height="{{ . }}"{{ end -}}
-                    {{- with $imageStyle }}style="{{ . | safeCSS }}"{{ end -}}
+                alt="{{ $title }}"
+                class="hextra-card-image hx:w-full hx:h-full hx:object-cover"
+                loading="lazy"
+                decoding="async"
+                src="{{ $image | safeURL }}"
+                {{- with $width }}width="{{ . }}" {{ end -}}
+                {{- with $height }}height="{{ . }}" {{ end -}}
+                {{- with $imageStyle }}style="{{ . | safeCSS }}" {{ end -}}
             />
         </div>
         {{- else -}}
