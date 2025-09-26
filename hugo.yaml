@@ -78,16 +78,16 @@ menu:
         type: search
     - name: GitHub
       weight: 3
-      url: 'https://github.com/flixcoo'
+      url: 'https://github.felixkirchner.de'
       params:
         icon: github
     - name: Instagram
       weight: 4
-      url: 'https://instagram.com/flixcoo'
+      url: 'https://instagram.felixkirchner.de'
       params:
         icon: instagram
     - name: Discord
       weight: 5
-      url: 'https://discord.com/users/478979169628454963'
+      url: 'https://discord.felixkirchner.de'
       params:
         icon: discord
