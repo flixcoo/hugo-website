@@ -23,7 +23,7 @@ Werbe-Frameworks von Dritten verwendet.
 ## Ihre Kontrolle
 
 Sie können die lokal gespeicherten Daten jederzeit löschen, indem Sie die App deinstallieren oder in den Einstellungen
-die Option *„Alle Spieldaten löschen“* wählen.
+die Option „Alle Spieldaten löschen“ wählen.
 
 ## Datenerhebung durch Apple
 
