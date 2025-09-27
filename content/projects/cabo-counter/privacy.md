@@ -1,6 +1,8 @@
 ---
-title: Datenschutzerklärung - Cabo Counter
+title: Datenschutzerklärung
 toc: true
+params:
+    subtitle: Cabo Counter
 ---
 
 **Verantwortlicher**  
