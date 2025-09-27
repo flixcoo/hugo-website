@@ -15,7 +15,7 @@ Entwicklern standardmäßig zur Verfügung stellt, werden **keine Daten an Dritt
 ## Lokale Datenspeicherung
 
 Cabo Counter speichert Spieldaten (z. B. Spielstände, Punkte) **ausschließlich lokal auf Ihrem Gerät** in einer
-JSON-Datei. Diese Daten verlassen Ihr Gerät nie und werden nicht an Server oder Dritte übermittelt.
+Datenbank. Diese Daten verlassen Ihr Gerät nie und werden nicht an Server oder Dritte übermittelt.
 
 ## Keine Weitergabe an Dritte
 
