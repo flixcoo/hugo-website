@@ -24,27 +24,34 @@ Falls du gerne mit mir in Kontakt treten möchtest, kannst du mir gerne eine E-M
 
 ## People
 
-Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit denen ich zusammenarbeite
+Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit denen ich zusammenarbeite :)
 {{< cards >}}
+    {{< user-card
+    title="Yannick \"Gelbeinhalb\""
+    image="https://github.com/gelbeinhalb.png"
+    link="https://github.com/gelbeinhalb"
+    subtitle="Python-Entwickler"
+    >}}
+
+    {{< user-card
+    title="Robert \"MistaRNG\""
+    image="https://github.com/MistaRNG.png"
+    link="https://github.com/MistaRNG"
+    subtitle="Web-Entwickler"
+    >}}
+
     {{< user-card
     title="Mathis \"Sneeex\""
     image="https://github.com/mathiskir.png"
     link="https://github.com/mathiskir"
-    subtitle="Flutter & Python Entwickler"
+    subtitle="Flutter- & Python-Entwickler"
     >}}
 
     {{< user-card
     title="Leon \"Alexschlomo\""
     image="https://github.com/Alexschlomo.png"
     link="https://github.com/Alexschlomo"
-    subtitle="Java Entwickler & Netzwerktechniker"
-    >}}
-
-    {{< user-card
-    title="Yannick \"Gelbeinhalb\""
-    image="https://github.com/gelbeinhalb.png"
-    link="https://github.com/gelbeinhalb"
-    subtitle="Python Entwickler"
+    subtitle="Java-Entwickler & Netzwerktechniker"
     >}}
 
     {{< user-card
