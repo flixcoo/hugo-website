@@ -21,6 +21,7 @@ params:
     key: 'announcement-cabo-counter'
     message: |
       Cabo Counter ab 1.10.2025 im App Store verfügbar  🚀
+    # Cabo Counter ist jetzt im [App Store](https://apps.apple.com/) verfügbar 🎉
 
   navbar:
     displayTitle: true

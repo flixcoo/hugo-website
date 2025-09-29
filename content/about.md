@@ -37,7 +37,7 @@ Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit de
     title="Leon \"Alexschlomo\""
     image="https://github.com/Alexschlomo.png"
     link="https://github.com/Alexschlomo"
-    subtitle="Java Entwickler"
+    subtitle="Java Entwickler & Netzwerktechniker"
     >}}
 
     {{< user-card
