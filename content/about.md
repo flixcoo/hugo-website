@@ -24,7 +24,7 @@ Falls du gerne mit mir in Kontakt treten möchtest, kannst du mir gerne eine E-M
 
 ## People
 
-Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit denen ich zusammenarbeite :)
+Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit denen ich zusammenarbeite
 {{< cards >}}
     {{< user-card
     title="Yannick \"Gelbeinhalb\""
