@@ -29,7 +29,7 @@ Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit de
     {{< user-card
     title="Yannick \"Gelbeinhalb\""
     image="https://github.com/gelbeinhalb.png"
-    link="https://github.com/gelbeinhalb"
+    link="https://yannik-weigert.de/"
     subtitle="Python-Entwickler"
     >}}
 
