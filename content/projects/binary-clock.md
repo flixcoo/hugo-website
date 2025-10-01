@@ -7,9 +7,10 @@ toc: true
 {{< card link="https://github.com/flixcoo/atmega48a-binary-clock" title="Repository" icon="code" >}}
 {{< /cards >}}
 
-Dieses Projekt war Teil des Moduls "Hardwarepraktikum II (C405)" meines Bachelorstudiums an der HTWK Leipzig. Im
-Wintersemester 2023/24 habe ich in Zusammenarbeit mit meinem Kommilitonen Quentin Kleinerteine Binäruhr auf Basis des
-ATmega48A Mikrocontrollers entwickelt. Dies war einer von insgesamt vier praktischen Prüfungen des Kurses.
+Dieses Projekt war Teil des Moduls "Hardwarepraktikum II (C405)" meines Bachelorstudiums an
+der [HTWK Leipzig](https://htwk-leipzig.de). Im Wintersemester 2023/24 habe ich in Zusammenarbeit mit meinem
+Kommilitonen Quentin Kleinerteine Binäruhr auf Basis des ATmega48A Mikrocontrollers entwickelt. Dies war einer von
+insgesamt vier praktischen Prüfungen des Kurses.
 
 ## Zielsetzung
 
