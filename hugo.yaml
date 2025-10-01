@@ -5,14 +5,24 @@ theme: 'hextra'
 defaultContentLanguage: "de"
 defaultContentLanguageInSubdir: false
 
+frontmatter:
+  publishDate:
+    - publishDate
+
+
 params:
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
   theme:
     default: dark
     displayToggle: false
 
   page:
     # full (100%), wide (90rem), normal (1280px)
-    width: full
+    width: wide
 
   layout:
     sidebar = false
@@ -54,6 +64,9 @@ menu:
     - name: '&Uuml;ber mich'
       pageRef: /about
       weight: 1
+#    - name: 'Blog'
+#      pageRef: /blog
+#      weight: 1
     - name: 'Projekte'
       identifier: projects
       weight: 1
