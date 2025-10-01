@@ -1,6 +1,11 @@
 ---
 title: ATmega48A Binary Clock
 toc: true
+showTitle: false
+---
+
+# ATmega48A Binary Clock
+
 ---
 
 {{< cards >}}
@@ -33,14 +38,14 @@ Knopfzelle und ein Pinheader für die Programmierung des Mikrocontrollers vorges
 ### Design der Leiterplatte
 
 {{< figure
-src="/images/binary_clock/schaltplan.png"
+src="/images/projects/binary-clock/schaltplan.png"
 alt="Die Vorderseite der Leiterplatte der Binäruhr"
 width="800"
 caption="Der Schaltplan der Leiterplatte"
 >}}
 
 {{< figure
-src="/images/binary_clock/cnc-1.gif"
+src="/images/projects/binary-clock/cnc-1.gif"
 alt="Die Platine wird gefräst"
 width="400"
 caption="Die Platine wird gefräst"
@@ -52,7 +57,7 @@ allem zu beachten, das alle Anschlüsse des ATmega korrekt platziert sind, um ei
 
 | Vorderseite                                    | Rückseite                                     |
 |------------------------------------------------|-----------------------------------------------|
-| ![](/images/binary_clock/pcb_vorderseite.jpeg) | ![](/images/binary_clock/pcb_rueckseite.jpeg) |
+| ![](/images/projects/binary-clock/pcb_vorderseite.jpeg) | ![](/images/projects/binary-clock/pcb_rueckseite.jpeg) |
 
 #### Anschlüsskonfiguration der Bauteile
 
@@ -72,7 +77,7 @@ musste. Die LEDs wurden tiefer in die Platine eingelötet, damit sie nicht abbre
 
 | Vorderseite                                        | Rückseite                                         |
 |----------------------------------------------------|---------------------------------------------------|
-| ![](/images/binary_clock/platine_vorderseite.jpeg) | ![](/images/binary_clock/platine_rueckseite.jpeg) |
+| ![](/images/projects/binary-clock/platine_vorderseite.jpeg) | ![](/images/projects/binary-clock/platine_rueckseite.jpeg) |
 
 ## Programmierung
 
@@ -172,7 +177,7 @@ Beim anschalten der Uhr wird ein Start-Pattern auf den LEDs angezeigt, um zu sig
 ist. Danach wechselt die Uhr auf die gesetzte Startzeit (Standard 12:00 Uhr).
 
 {{< figure
-src="/images/binary_clock/startup_sequence.gif"
+src="/images/projects/binary-clock/startup_sequence.gif"
 alt="Die Uhr wird eingeschaltet"
 width="400"caption="Die Uhr wird eingeschaltet"
 >}}

@@ -79,11 +79,11 @@ menu:
       parent: projects
     - name: 'WatchWise'
       pageRef: /projects/watchwise
-      weight: 1
+      weight: 2
       parent: projects
-    - name: 'Game Tracker'
-      pageRef: /projects/gametracker
-      weight: 1
+    - name: 'Binäruhr'
+      pageRef: /projects/binary-clock
+      weight: 3
       parent: projects
     - name: Suche
       weight: 2
