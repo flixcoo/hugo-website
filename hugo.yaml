@@ -30,8 +30,7 @@ params:
   banner:
     key: 'announcement-cabo-counter'
     message: |
-      Meine App **Cabo Counter** ist ab 3.10.2025 im App Store verfügbar  🚀
-    # Cabo Counter ist jetzt im [App Store](https://apps.apple.com/) verfügbar 🎉
+      Cabo Counter ist jetzt im [App Store](https://apps.apple.com/de/app/cabo-counter/id6751843294) verfügbar 🎉
 
   navbar:
     displayTitle: true
