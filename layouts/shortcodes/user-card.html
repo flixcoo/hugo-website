@@ -17,37 +17,38 @@
 {{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
 
 <a
-    class="hextra-card hx:group hx:flex hx:flex-row hx:items-center hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 {{ $linkClass }}"
-    {{- if $link -}}
+        class="hextra-card hx:group hx:flex hx:flex-row hx:items-start hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 {{ $linkClass }}"
+        {{- if $link -}}
         href="{{ $href }}"
         {{- with $external }}target="_blank"
         rel="noreferrer" {{ end -}}
-    {{- end -}}
+        {{- end -}}
 >
     {{- if or $image $icon -}}
-    <div class="hx:flex hx:items-center hx:justify-center hx:p-4 hx:pr-0">
+    <div class="hx:flex hx:items-center hx:justify-center hx:p-4 hx:pr-0 hx:self-start hx:flex-shrink-0">
         {{- with $image -}}
-        <div class="hx:w-16 hx:h-16 hx:flex hx:items-center hx:justify-center hx:overflow-hidden hx:rounded-md">
+        <div class="hx:w-16 hx:h-16 hx:flex hx:items-center hx:justify-center hx:overflow-hidden hx:rounded-md" style="width: 4rem; height: 4rem; min-width: 4rem; min-height: 4rem;">
             <img
-                alt="{{ $title }}"
-                class="hextra-card-image hx:w-full hx:h-full hx:object-cover"
-                loading="lazy"
-                decoding="async"
-                src="{{ $image | safeURL }}"
-                {{- with $width }}width="{{ . }}" {{ end -}}
-                {{- with $height }}height="{{ . }}" {{ end -}}
-                {{- with $imageStyle }}style="{{ . | safeCSS }}" {{ end -}}
+                    alt="{{ $title }}"
+                    class="hextra-card-image hx:w-full hx:h-full hx:object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    src="{{ $image | safeURL }}"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                    {{- with $width }}width="{{ . }}" {{ end -}}
+                    {{- with $height }}height="{{ . }}" {{ end -}}
+                    {{- with $imageStyle }}style="{{ . | safeCSS }}" {{ end -}}
             />
         </div>
         {{- else -}}
-        <div class="hx:w-16 hx:h-16 hx:flex hx:items-center hx:justify-center">
+        <div class="hx:w-16 hx:h-16 hx:flex hx:items-center hx:justify-center hx:flex-shrink-0" style="width: 4rem; height: 4rem; min-width: 4rem; min-height: 4rem;">
             {{- partial "utils/icon.html" (dict "name" $icon "attributes" "height=32") -}}
         </div>
         {{- end -}}
     </div>
     {{- end -}}
 
-    <div class="hx:flex hx:flex-col hx:flex-1 hx:min-w-0 {{ if or $image $icon }}hx:py-4 hx:pr-4{{ else }}hx:p-4{{ end }}">
+    <div class="hx:flex hx:flex-col hx:flex-1 hx:min-w-0 hx:py-4 {{ if or $image $icon }}hx:pr-4{{ else }}hx:px-4{{ end }}">
         <div class="hextra-card-icon hx:flex hx:flex-col hx:gap-1">
       <span class="hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:text-gray-700 hx:group-hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:group-hover:text-neutral-50">
         {{- with $icon }}{{ if not $image }}{{ partial "utils/icon.html" (dict "name" $icon) }}{{ end }}{{ end -}}
