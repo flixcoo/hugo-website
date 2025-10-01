@@ -64,9 +64,9 @@ menu:
     - name: '&Uuml;ber mich'
       pageRef: /about
       weight: 1
-#    - name: 'Blog'
-#      pageRef: /blog
-#      weight: 1
+    - name: 'Blog'
+      pageRef: /blog
+      weight: 1
     - name: 'Projekte'
       identifier: projects
       weight: 1
