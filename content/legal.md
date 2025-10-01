@@ -11,7 +11,6 @@ Mechlerstraße 4
 04105 Leipzig  
 Deutschland
 
-### Kontakt
 Telefon: [+49 341 24893145](tel:+4934124893145)  
 E-Mail: [hi@felixkirchner.de](mailto:hi@felixkirchner.de)
 
