@@ -1,6 +1,7 @@
 ---
 title: Cabo Counter
 toc: false
+enableBreadcrumb: true
 ---
 
 {{< figure
