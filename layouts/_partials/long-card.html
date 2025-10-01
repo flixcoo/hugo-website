@@ -11,6 +11,7 @@
 {{- $tagBorder := not (eq .tagBorder false) | default true }}
 {{- $tagIcon := .tagIcon -}}
 {{- $readMore := .readMore -}}
+{{- $authors := .authors -}}
 
 {{ $linkClass := "hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900" }}
 {{- with $image -}}
@@ -47,10 +48,25 @@
     {{- end -}}
 
 
-    <span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 {{ $padding }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
-    {{- with $icon }}{{ partial "utils/icon.html" (dict "name" $icon) -}}{{- end -}}
-    {{- $title -}}
-  </span>
+    <div class="hextra-card-icon hx:flex hx:items-center hx:gap-3 {{ $padding }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
+        <div class="hx:min-w-0 hx:flex-1">
+            <h3 class="hx:font-semibold hx:text-xl hx:mb-2">{{ $title }}</h3>
+            <div class="hx:flex hx:items-center hx:gap-2 hx:flex-wrap">
+                {{- range $index, $author := .authors -}}
+                <div class="hx:flex hx:items-center hx:gap-1">
+                    {{- with $author.image -}}
+                    <img src="{{ . }}" alt="{{ $author.name }}" class="hx:w-5 hx:h-5 hx:rounded-full hx:object-cover hx:flex-shrink-0">
+                    {{- end -}}
+                    <span class="hx:text-sm hx:text-gray-500 hx:dark:text-gray-400">{{ $author.name }}</span>
+                </div>
+                {{- if lt $index (sub (len $.authors) 1) -}}
+                <span class="hx:text-sm hx:text-gray-400">•</span>
+                {{- end -}}
+                {{- end -}}
+            </div>
+        </div>
+        {{- with $icon }}{{ partial "utils/icon.html" (dict "name" $icon) -}}{{- end -}}
+    </div>
     {{- with $subtitle -}}
     <div class="hextra-card-subtitle hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-2 hx:mt-2">{{- $subtitle | markdownify -}}</div>
     {{- end -}}
