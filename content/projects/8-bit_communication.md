@@ -32,7 +32,7 @@ Das Hauptziel des Projektes war es, ein eigenes Kommunikationsprotokoll zu entwe
 
 ## Technische Grundlagen
 
-### Das B15-Board
+### B15-Board
 
 {{< figure
 src="/images/projects/8-bit-communication/B15.png"
@@ -44,18 +44,21 @@ Das B15-Board ist ein Datenerfassungsboard (DAQ), das an der HTWK Leipzig entwic
 einfache Programmierung und offene Dokumentation aus. Für unser Projekt nutzten wir die PortA-Schnittstelle, um Daten
 über ein Patchkabel zu senden und zu empfangen.
 
-### Paketaufbau und Steuerbits
+### Paketaufbau und Steuerungsbits
 
 {{< figure
 src="/images/projects/8-bit-communication/Paketaufbau.png"
 alt="Paketaufbau"
-width="200"
+width="300"
 caption="Aufbau der Pakete" >}}
 
 Unser Protokoll basierte auf einer Aufteilung von 4 Bits in ein Steuerungs-Bit und 3-Datenbits. Das Steuerungs-Bit (MSB)
 bestimmt die Art des Pakets, während die 3 Datenbits die eigentlichen Informationen enthalten. Wenn das Steuerungs-Bit
-auf `0` gesetzt ist, handelt es sich um ein Datenpaket. Andernfalls wird ein Steuerpaket übertragen. Folgende Steuerbits
-wurden definiert:
+auf `0` gesetzt ist, handelt es sich um ein Datenpaket. Andernfalls wird ein Steuerpaket übertragen.
+
+#### Steuerungspaket
+
+Folgende Steuerungsbits wurden definiert:
 
 | Steuerbit | Zeichen      | Erklärung                                                                         |
 |-----------|--------------|-----------------------------------------------------------------------------------|
@@ -66,12 +69,24 @@ wurden definiert:
 | `1100`    | `REQ_SIGN`   | Es wird von einer Seite Angefragt, ob die Übertragung starten kann                |
 | `1111`    | `STOP_SIGN`  | Die Übertragung ist beendet                                                       |
 
+#### Datenpakete
+
+Jedes Zeichen wird in 8-Bit kodiert und in drei 3-Bit-Pakete aufgeteilt. Ein zusätzliches Paritätsbit wird
+hinzugefügt, um die Fehlererkennung zu ermöglichen. Bei der Parität handelt es sich um eine gerade Parität, d.h. das
+Paritätsbit wird so gesetzt, dass die Gesamtanzahl der Einsen im des Zeichens gerade ist. Beispielsweise das Zeichen
+`A` (ASCII 65 -> Binär `01000001`) enthält zwei Einsen, also wird das Paritätsbit auf `0` gesetzt. Die drei Pakete für
+das Zeichen `A` sind also:
+
+1. Paket: `001`
+2. Paket: `000`
+3. Paket: `01` (Daten) + `0` (Parität) = `001`
+
 ### Leitungsarchitektur
 
 {{< figure
 src="/images/projects/8-bit-communication/Leitungsarchitektur.png"
 alt="Aufteilen der Leitung"
-width="200"
+width="300"
 caption="Aufteilen der Leitung" >}}
 
 Die Leitung ist so aufgebaut, dass der Sendene-PC auf den ersten vier Bits der PortA-Schnittstelle die Daten
