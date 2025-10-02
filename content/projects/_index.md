@@ -8,31 +8,31 @@ Hier findest du alle meine bisherigen Projekte.
     {{< card 
         link="cabo-counter" 
         title="Cabo Counter" 
-        image="/images/projects/cabo-counter/cabo-counter-logo.png" 
+        image="/images/projects/cabo-counter/cabo-counter-logo.webp" 
         subtitle="Eine iOS App zum Tracken von Punkten für das Kartenspiel \"Cabo\""
     >}}
     {{< card 
         link="watchwise" 
         title="WatchWise"
-        image="/images/projects/watchwise-logo.png" 
+        image="/images/projects/watchwise-logo.webp" 
         subtitle="Eine Film-App"
     >}}
     {{< card 
         link="binary-clock" 
         title="ATmega48A Binäruhr" 
-        image="/images/projects/binary-clock/title.png"
+        image="/images/projects/binary-clock/title.webp"
         subtitle="Eine kompakte Implementierung einer Binäruhr unter Verwendung eines ATmega48A-Mikrocontrollers"
     >}}
     {{< card 
         link="8-bit_communication"
         title="8-Bit-Kommunikationssystem"
-        image="/images/projects/8-bit-communication/title.png"
+        image="/images/projects/8-bit-communication/title.webp"
         subtitle="Ein Low-Level-Kommunikationssystem, das eine 8-Bit-Parallel-Datenübertragung zwischen zwei ATmega-Mikrocontrollern implementiert."
     >}}
     {{< card 
         link="gametracker"
         title="GameTracker"
-        image="/images/projects/no-image.jpg"
+        image="/images/projects/no-image.webp"
         subtitle="Work in Progress..." 
         tag="Work in Progress"
     >}}

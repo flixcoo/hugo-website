@@ -38,7 +38,7 @@ Knopfzelle und ein Pinheader für die Programmierung des Mikrocontrollers vorges
 ### Design der Leiterplatte
 
 {{< figure
-src="/images/projects/binary-clock/schaltplan.png"
+src="/images/projects/binary-clock/schaltplan.webp"
 alt="Die Vorderseite der Leiterplatte der Binäruhr"
 width="800"
 caption="Der Schaltplan der Leiterplatte"
@@ -57,7 +57,7 @@ allem zu beachten, das alle Anschlüsse des ATmega korrekt platziert sind, um ei
 
 | Vorderseite                                    | Rückseite                                     |
 |------------------------------------------------|-----------------------------------------------|
-| ![](/images/projects/binary-clock/pcb_vorderseite.jpeg) | ![](/images/projects/binary-clock/pcb_rueckseite.jpeg) |
+| ![](/images/projects/binary-clock/pcb_vorderseite.webp) | ![](/images/projects/binary-clock/pcb_rueckseite.webp) |
 
 #### Anschlüsskonfiguration der Bauteile
 
@@ -77,7 +77,7 @@ musste. Die LEDs wurden tiefer in die Platine eingelötet, damit sie nicht abbre
 
 | Vorderseite                                        | Rückseite                                         |
 |----------------------------------------------------|---------------------------------------------------|
-| ![](/images/projects/binary-clock/platine_vorderseite.jpeg) | ![](/images/projects/binary-clock/platine_rueckseite.jpeg) |
+| ![](/images/projects/binary-clock/platine_vorderseite.webp) | ![](/images/projects/binary-clock/platine_rueckseite.webp) |
 
 ## Programmierung
 

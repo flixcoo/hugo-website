@@ -36,8 +36,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/f-logo_transparent_black.png
-      dark: images/f-logo_transparent_white.png
+      path: images/f-logo_transparent_black.webp
+      dark: images/f-logo_transparent_white.webp
       width: 30
       height: 30
 

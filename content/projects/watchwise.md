@@ -4,7 +4,7 @@ toc: false
 ---
 
 {{< figure
-src="/images/projects/watchwise-logo.png"
+src="/images/projects/watchwise-logo.webp"
 alt="WatchWise Logo"
 width="400"
 >}}

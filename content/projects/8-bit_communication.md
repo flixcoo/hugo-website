@@ -35,7 +35,7 @@ Das Hauptziel des Projektes war es, ein eigenes Kommunikationsprotokoll zu entwe
 ### B15-Board
 
 {{< figure
-src="/images/projects/8-bit-communication/B15.png"
+src="/images/projects/8-bit-communication/B15.webp"
 alt="Das B15-Board"
 width="400"
 caption="Das B15-Board" >}}
@@ -47,7 +47,7 @@ einfache Programmierung und offene Dokumentation aus. Für unser Projekt nutzten
 ### Paketaufbau und Steuerungsbits
 
 {{< figure
-src="/images/projects/8-bit-communication/Paketaufbau.png"
+src="/images/projects/8-bit-communication/Paketaufbau.webp"
 alt="Paketaufbau"
 width="300"
 caption="Aufbau der Pakete" >}}
@@ -84,7 +84,7 @@ das Zeichen `A` sind also:
 ### Leitungsarchitektur
 
 {{< figure
-src="/images/projects/8-bit-communication/Leitungsarchitektur.png"
+src="/images/projects/8-bit-communication/Leitungsarchitektur.webp"
 alt="Aufteilen der Leitung"
 width="300"
 caption="Aufteilen der Leitung" >}}
@@ -177,7 +177,7 @@ flowchart TD
 
 ## Ergebnisse
 
-Um auch eine VErlgeichsgröße zu haben, sollten wir verschieden große Dateien übertragen und die Übertragungszeit messen.
+Um auch eine Verlgeichsgröße zu haben, sollten wir verschieden große Dateien übertragen und die Übertragungszeit messen.
 Hier sind die Ergebnisse:
 
 | Dateigröße          | Übertragungszeit | Zeit/Bit       | Bitrate      |
