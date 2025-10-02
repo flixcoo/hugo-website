@@ -5,13 +5,13 @@ enableBreadcrumb: true
 ---
 
 {{< figure
-    src="/images/cabo-counter-logo-rounded.png"
-    alt="A photograph of Zion National Park"
+    src="/images/cabo-counter/cabo-counter-logo-rounded.png"
+    alt="Das Logo der Cabo Counter App"
     width="400"
 >}}
 
 {{< figure
-    src="/images/App_Store_Badge_DE_RGB_wht.svg"
+    src="/images/cabo-counter/App_Store_Badge_DE_RGB_wht.svg"
     alt="Download on the App Store Badge"
     width="120"
     link="https://apps.apple.com/de/app/cabo-counter/id6751843294"

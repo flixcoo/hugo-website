@@ -27,13 +27,13 @@ Hier findest du alle meine bisherigen Projekte.
     {{< card 
         link="binary-clock" 
         title="ATmega48A Binäruhr" 
-        image="/images/projects/binary_clock/binary_clock.png"
+        image="/images/projects/binary-clock/binary-clock.png"
         subtitle="Eine kompakte Implementierung einer Binäruhr unter Verwendung eines ATmega48A-Mikrocontrollers mit Energiesparfunktionen und Helligkeitsregelung"
     >}}
     {{< card 
         link="8-bit_communication"
         title="8-Bit-Kommunikationssystem"
-        image="/images/projects/8-bit_communication.png"
+        image="/images/projects/8-bit-communication.png"
         subtitle="Ein Low-Level-Kommunikationssystem, das eine 8-Bit-Parallel-Datenübertragung zwischen zwei ATmega-Mikrocontrollern implementiert."
     >}}
 {{< /cards >}}
