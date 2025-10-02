@@ -28,7 +28,7 @@ Hier findest du alle meine bisherigen Projekte.
         link="binary-clock" 
         title="ATmega48A Binäruhr" 
         image="/images/projects/embedded-icon.png"
-        subtitle="Eine kompakte Implementierung einer Binäruhr unter Verwendung eines ATmega48A-Mikrocontrollers mit Energiesparfunktionen und Helligkeitsregelung"
+        subtitle="Eine kompakte Implementierung einer Binäruhr unter Verwendung eines ATmega48A-Mikrocontrollers"
     >}}
     {{< card 
         link="8-bit_communication"
