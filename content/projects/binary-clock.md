@@ -185,5 +185,5 @@ width="400"caption="Die Uhr wird eingeschaltet"
 #### Genauigkeitsmessung
 
 Des Weiteren ist noch ein Modus implementiert, in dem die Genauigkeit der Uhr überprüft werden kann. Dieser wechselt
-am PIN PD0 jede Sekunde den Zustand, sodass mit einem Oszilloskop die Frequenz des Quarzes gemessen werden kann.
+am PIN `PD0` jede Sekunde den Zustand, sodass mit einem Oszilloskop die Frequenz des Quarzes gemessen werden kann.
 Dies dient dazu, dass die Abweichung der Uhrzeit überprüft werden kann.
