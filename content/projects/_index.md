@@ -18,13 +18,6 @@ Hier findest du alle meine bisherigen Projekte.
         subtitle="Eine Film-App"
     >}}
     {{< card 
-        link="gametracker"
-        title="GameTracker"
-        image="/images/projects/no-image.jpg"
-        subtitle="Work in Progress..." 
-        tag="Work in Progress"
-    >}}
-    {{< card 
         link="binary-clock" 
         title="ATmega48A Binäruhr" 
         image="/images/projects/embedded-icon.png"
@@ -35,5 +28,12 @@ Hier findest du alle meine bisherigen Projekte.
         title="8-Bit-Kommunikationssystem"
         image="/images/projects/embedded-icon.png"
         subtitle="Ein Low-Level-Kommunikationssystem, das eine 8-Bit-Parallel-Datenübertragung zwischen zwei ATmega-Mikrocontrollern implementiert."
+    >}}
+    {{< card 
+        link="gametracker"
+        title="GameTracker"
+        image="/images/projects/no-image.jpg"
+        subtitle="Work in Progress..." 
+        tag="Work in Progress"
     >}}
 {{< /cards >}}
