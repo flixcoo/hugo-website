@@ -26,7 +26,7 @@ Hier findest du alle meine bisherigen Projekte.
     {{< card 
         link="8-bit_communication"
         title="8-Bit-Kommunikationssystem"
-        image="/images/projects/embedded-icon.png"
+        image="/images/projects/8-bit-communication/title.png"
         subtitle="Ein Low-Level-Kommunikationssystem, das eine 8-Bit-Parallel-Datenübertragung zwischen zwei ATmega-Mikrocontrollern implementiert."
     >}}
     {{< card 
