@@ -165,13 +165,13 @@ flowchart TD
 Um auch eine VErlgeichsgröße zu haben, sollten wir verschieden große Dateien übertragen und die Übertragungszeit messen.
 Hier sind die Ergebnisse:
 
-| Dateigröße          | Übertragungszeit | Übertragungszeit pro Bit | Bitrate     |
-|---------------------|------------------|--------------------------|-------------|
-| 10 Byte (80 Bit)    | 4,92557 Sekunden | 0,062 Sekunden           | 16,24 Bit/s |
-| 25 Byte (200 Bit)   | 10,7115 Sekunden | 0,054 Sekunden           | 18,67 Bit/s |
-| 50 Byte (400 Bit)   | 20,7858 Sekunden | 0,052 Sekunden           | 19,24 Bit/s |
-| 100 Byte (800 Bit)  | 41,3637 Sekunden | 0,051 Sekunden           | 19,34 Bit/s |
-| 200 Byte (1600 Bit) | 82,2825 Sekunden | 0,051Sekunden            | 19,44 Bit/s |
+| Dateigröße          | Übertragungszeit | Zeit/Bit       | Bitrate      |
+|---------------------|------------------|----------------|--------------|
+| 10 Byte (80 Bit)    | 4,92557 Sekunden | 0,062 Sekunden | 16,24 Bits/s |
+| 25 Byte (200 Bit)   | 10,7115 Sekunden | 0,054 Sekunden | 18,67 Bits/s |
+| 50 Byte (400 Bit)   | 20,7858 Sekunden | 0,052 Sekunden | 19,24 Bits/s |
+| 100 Byte (800 Bit)  | 41,3637 Sekunden | 0,051 Sekunden | 19,34 Bits/s |
+| 200 Byte (1600 Bit) | 82,2825 Sekunden | 0,051 Sekunden | 19,44 Bits/s |
 
 Die Geschwindigkeit war aufgrund der manuellen Fehlerkorrektur und der begrenzten Bandbreite (4 Bit pro Richtung)
 relativ niedrig – was aber auch nicht das Hauptziel war. Viel mehr ging es um Zuverlässigkeit und das Verständnis der
