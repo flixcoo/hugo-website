@@ -35,7 +35,7 @@ Das Hauptziel des Projektes war es, ein eigenes Kommunikationsprotokoll zu entwe
 ### Das B15-Board
 
 {{< figure
-src="/images/projects/8-bit-communication/b15.png"
+src="/images/projects/8-bit-communication/B15.png"
 alt="Das B15-Board"
 width="400"
 caption="Das B15-Board" >}}
