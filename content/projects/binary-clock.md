@@ -42,10 +42,10 @@ src="/images/projects/binary-clock/schaltplan.webp"
 alt="Die Vorderseite der Leiterplatte der Binäruhr"
 width="800"
 caption="Der Schaltplan der Leiterplatte"
->}}
+> }}
 
-| Vorderseite                                    | Rückseite                                     |
-|------------------------------------------------|-----------------------------------------------|
+| Vorderseite                                             | Rückseite                                              |
+|---------------------------------------------------------|--------------------------------------------------------|
 | ![](/images/projects/binary-clock/pcb_vorderseite.webp) | ![](/images/projects/binary-clock/pcb_rueckseite.webp) |
 
 Die Leiterplatte wurde mit KiCad entworfen und anschließend mit der CNC-Fräse der HTWK gefertigt. Die Platine konnte
@@ -57,17 +57,17 @@ src="/images/projects/binary-clock/cnc-1.gif"
 alt="Die Platine wird gefräst"
 width="400"
 caption="Die Platine wird gefräst"
->}}
+> }}
 
 #### Anschlüsskonfiguration der Bauteile
 
 | Bauteil        | Anschluss auf Platine | Funktion                      |
 |----------------|-----------------------|-------------------------------|
-| LED            | PD3 - PD7             | Anzeigen der Stunden          |
-| LED            | PC0 - PC5             | Anzeigen der Minuten-Anzeige  |
-| Taster         | PB0, PB1, PD2         | Bedienung der Uhr             |
-| Uhrenquarz     | PB6 + PB7             | Steuerung des internen Timers |
-| Batteriehalter | VCC + GND             | Stromversorgung               |
+| LED            | `PD3` - `PD7`         | Anzeigen der Stunden          |
+| LED            | `PC0` - `PC5`         | Anzeigen der Minuten-Anzeige  |
+| Taster         | `PB0`, `PB1`, `PD2`   | Bedienung der Uhr             |
+| Uhrenquarz     | `PB6` + `PB7`         | Steuerung des internen Timers |
+| Batteriehalter | `VCC` + `GND`         | Stromversorgung               |
 
 ### Löten und Zusammenbau
 
@@ -75,8 +75,8 @@ Nach dem die Platine designed und gefräst war, wurden alle Bauteile von Hand au
 Arbeiten, insbesondere bei dem ATmega48A, da bei diesem jeder der 28 Pins korrekt mit der Platine verbunden werden
 musste. Die LEDs wurden tiefer in die Platine eingelötet, damit sie nicht abbrechen.
 
-| Vorderseite                                        | Rückseite                                         |
-|----------------------------------------------------|---------------------------------------------------|
+| Vorderseite                                                 | Rückseite                                                  |
+|-------------------------------------------------------------|------------------------------------------------------------|
 | ![](/images/projects/binary-clock/platine_vorderseite.webp) | ![](/images/projects/binary-clock/platine_rueckseite.webp) |
 
 ## Programmierung
@@ -180,7 +180,7 @@ ist. Danach wechselt die Uhr auf die gesetzte Startzeit (Standard 12:00 Uhr).
 src="/images/projects/binary-clock/startup_sequence.gif"
 alt="Die Uhr wird eingeschaltet"
 width="400"caption="Die Uhr wird eingeschaltet"
->}}
+> }}
 
 #### Genauigkeitsmessung
 
