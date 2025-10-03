@@ -42,7 +42,7 @@ src="/images/projects/binary-clock/schaltplan.webp"
 alt="Die Vorderseite der Leiterplatte der Binäruhr"
 width="800"
 caption="Der Schaltplan der Leiterplatte"
-> }}
+>}}
 
 | Vorderseite                                             | Rückseite                                              |
 |---------------------------------------------------------|--------------------------------------------------------|
@@ -57,7 +57,7 @@ src="/images/projects/binary-clock/cnc-1.gif"
 alt="Die Platine wird gefräst"
 width="400"
 caption="Die Platine wird gefräst"
-> }}
+>}}
 
 #### Anschlüsskonfiguration der Bauteile
 
@@ -180,7 +180,7 @@ ist. Danach wechselt die Uhr auf die gesetzte Startzeit (Standard 12:00 Uhr).
 src="/images/projects/binary-clock/startup_sequence.gif"
 alt="Die Uhr wird eingeschaltet"
 width="400"caption="Die Uhr wird eingeschaltet"
-> }}
+>}}
 
 #### Genauigkeitsmessung
 
