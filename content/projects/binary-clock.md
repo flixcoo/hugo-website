@@ -44,20 +44,20 @@ width="800"
 caption="Der Schaltplan der Leiterplatte"
 >}}
 
+| Vorderseite                                    | Rückseite                                     |
+|------------------------------------------------|-----------------------------------------------|
+| ![](/images/projects/binary-clock/pcb_vorderseite.webp) | ![](/images/projects/binary-clock/pcb_rueckseite.webp) |
+
+Die Leiterplatte wurde mit KiCad entworfen und anschließend mit der CNC-Fräse der HTWK gefertigt. Die Platine konnte
+von beiden Seiten bestückt werden, was beim Leiterplattendesign berücksichtigt werden musste. Wichtig waren hier vor
+allem zu beachten, das alle Anschlüsse des ATmega korrekt platziert sind, um eine einfache Verdrahtung zu ermöglichen.
+
 {{< figure
 src="/images/projects/binary-clock/cnc-1.gif"
 alt="Die Platine wird gefräst"
 width="400"
 caption="Die Platine wird gefräst"
 >}}
-
-Die Leiterplatte wurde mit KiCad entworfen und anschließend mit der CNC-Fräse der HTWK gefertigt. Die Platine konnte
-von beiden Seiten bestückt werden, was beim Leiterplattendesign berücksichtigt werden musste. Wichtig waren hier vor
-allem zu beachten, das alle Anschlüsse des ATmega korrekt platziert sind, um eine einfache Verdrahtung zu ermöglichen.
-
-| Vorderseite                                    | Rückseite                                     |
-|------------------------------------------------|-----------------------------------------------|
-| ![](/images/projects/binary-clock/pcb_vorderseite.webp) | ![](/images/projects/binary-clock/pcb_rueckseite.webp) |
 
 #### Anschlüsskonfiguration der Bauteile
 
