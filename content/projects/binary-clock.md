@@ -173,7 +173,7 @@ Tasten gedrückt wird, wird der Stromsparmodus verlassen und die Uhr kehrt in de
 
 #### Startsequenz
 
-Beim anschalten der Uhr wird ein Start-Pattern auf den LEDs angezeigt, um zu signalisieren, dass die Uhr betriebsbereit
+Beim Anschalten der Uhr wird ein Start-Pattern auf den LEDs angezeigt, um zu signalisieren, dass die Uhr betriebsbereit
 ist. Danach wechselt die Uhr auf die gesetzte Startzeit (Standard 12:00 Uhr).
 
 {{< figure
