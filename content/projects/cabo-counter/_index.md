@@ -5,7 +5,7 @@ enableBreadcrumb: true
 ---
 
 {{< figure
-src="/images/projects/cabo-counter/cabo-counter-logo-rounded.png"
+src="/images/projects/cabo-counter/cabo-counter-logo-rounded.webp"
 alt="Das Logo der Cabo Counter App"
 width="400"
 >}}
