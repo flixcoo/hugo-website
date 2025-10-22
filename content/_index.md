@@ -3,6 +3,7 @@ menus:
 - footer
 title: Felix Kirchner
 toc: false
+comments: false
 ---
 # Felix Kirchner
 Willkommen auf meiner Website :)  

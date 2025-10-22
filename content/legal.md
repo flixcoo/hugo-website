@@ -1,5 +1,6 @@
 ---
 title: Impressum
+comments: false
 params:
     showTitle: true
 ---

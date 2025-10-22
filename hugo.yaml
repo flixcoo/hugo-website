@@ -20,6 +20,25 @@ params:
     default: dark
     displayToggle: false
 
+
+  comments:
+    enable: true
+    type: giscus
+    giscus:
+      repo: "flixcoo/hugo-website"
+      repoId: "R_kgDOP1_WIg"
+      category: "Kommentare"
+      categoryId: "DIC_kwDOP1_WIs4Cw8do"
+      mapping: "pathname"
+      strict: "0"
+      reactionsEnabled: "1"
+      emitMetadata: "0"
+      inputPosition: "top"
+      theme: "dark"
+      lang: "de"
+      loading: "lazy"
+      crossorigin: "anonymous"
+
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: full

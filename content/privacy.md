@@ -1,5 +1,6 @@
 ---
 title: Datenschutzerklärung
+comments: false
 ---
 
 ## 1. Datenschutz

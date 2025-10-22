@@ -1,5 +1,6 @@
 ---
 title: Projekte
+comments: false
 ---
 
 Hier findest du alle meine bisherigen Projekte.

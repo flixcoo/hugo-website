@@ -1,6 +1,7 @@
 ---
 title: Datenschutzerklärung
 toc: true
+comments: false
 params:
     subtitle: Cabo Counter
 ---

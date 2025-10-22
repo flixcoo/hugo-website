@@ -1,6 +1,7 @@
 ---
 title: Über mich
 toc: false
+comments: false
 ---
 
 {{< figure
