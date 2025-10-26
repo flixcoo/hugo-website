@@ -68,7 +68,7 @@ params:
         pageRef: /legal
         weight: 1
       - name: Kontakt
-        pageRef: mailto:hi@felixkirchner.de
+        pageRef: /about/#kontakt--socials
         weight: 1
       - name: Datenschutz
         pageRef: /privacy
@@ -113,13 +113,8 @@ menu:
       url: 'https://github.felixkirchner.de'
       params:
         icon: github
-    - name: Instagram
-      weight: 4
-      url: 'https://instagram.felixkirchner.de'
-      params:
-        icon: instagram
-    - name: Discord
+    - name: LinkedIn
       weight: 5
-      url: 'https://discord.felixkirchner.de'
+      url: 'https://www.linkedin.com/in/felix-kirchner-459418387/'
       params:
-        icon: discord
+        icon: linkedin

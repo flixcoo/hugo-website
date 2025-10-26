@@ -15,8 +15,8 @@ Hier findest du Informationen über mich, meine Projekte und wie du mich erreich
     {{< card 
         link="/projects/cabo-counter" 
         title="Cabo Counter"
-icon="code"
-        subtitle="Eine iOS App zum Tracken von Punkten in Cabo" 
+        icon="device-mobile"
+        subtitle="Eine iOS App zum Tracken von Punkten im Kartenspiel \"Cabo\"" 
     >}}
     {{< card 
         link="/projects/"
