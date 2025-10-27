@@ -57,7 +57,7 @@ Falls du gerne mit mir in Kontakt treten möchtest, kannst du mir gerne eine E-M
     subtitle="@flixcoo"
     >}}
     {{< card
-    link="https://youtube.com/@flixcooo"
+    link="https://youtube.felixkirchner.de"
     title="YouTube"
     icon="youtube"
     subtitle="@flixcoo"
