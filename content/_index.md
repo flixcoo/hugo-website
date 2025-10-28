@@ -22,6 +22,13 @@ Hier findest du Informationen über mich, meine Projekte und wie du mich erreich
         link="/projects/"
         icon="collection"
         title="Meine Projekte"
-        subtitle="Eine Übersicht meiner Projekte"
+        subtitle="Eine Übersicht meiner bisherigen Projekte"
+    >}}
+    {{< card
+    link="/blog/"
+    icon="chat-alt"
+    title="Mein Blog"
+    subtitle="Hier schreibe ich über aktuelle Themen und Projekte"
+    
     >}}
 {{< /cards >}}
