@@ -23,47 +23,6 @@ und beschäftige mich mit Themen wie User Experience, Interface Design und Mobil
 
 Falls du gerne mit mir in Kontakt treten möchtest, kannst du mir gerne eine E-Mail schreiben oder mich auf meinen Socials kontaktieren :)
 
-## Kontakt & Socials
-
-{{< cards >}}
-    {{< card
-    link="mailto:hi@felixkirchner.de"
-    title="E-Mail"
-    icon="mail"
-    subtitle="hi@felixkirchner\.de"
-    >}}
-    {{< card
-    link="https://linkedin.felixkirchner.de"
-    title="LinkedIn"
-    icon="linkedin"
-    subtitle="felix-kirchner"
-    >}}
-    {{< card
-    link="https://github.felixkirchner.de"
-    title="Github"
-    icon="github"
-    subtitle="@flixcoo"
-    >}}
-    {{< card
-    link="https://instagram.felixkirchner.de"
-    title="Instagram"
-    icon="instagram"
-    subtitle="@flixcoo"
-    >}}
-    {{< card
-    link="https://discord.felixkirchner.de"
-    title="Disord"
-    icon="discord"
-    subtitle="@flixcoo"
-    >}}
-    {{< card
-    link="https://youtube.felixkirchner.de"
-    title="YouTube"
-    icon="youtube"
-    subtitle="@flixcoo"
-    >}}
-{{< /cards >}}
-
 ## People
 
 Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit denen ich zusammenarbeite

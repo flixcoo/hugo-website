@@ -68,7 +68,7 @@ params:
         pageRef: /legal
         weight: 1
       - name: Kontakt
-        pageRef: /about/#kontakt--socials
+        pageRef: /contact
         weight: 1
       - name: Datenschutz
         pageRef: /privacy
