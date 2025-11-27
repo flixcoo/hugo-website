@@ -5,7 +5,7 @@ comments: false
 ---
 
 {{< figure
-src="/images/profile-picture.webp"
+src="/images/profile-picture-2.webp"
 alt="Ein Bild von Felix Kirchner"
 width="300"
 >}}
