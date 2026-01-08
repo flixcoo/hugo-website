@@ -1,8 +1,18 @@
 #!/bin/bash
+# build.sh - Update the repository and build the Hugo website
+#
+# Steps:
+# 1) git pull
+# 2) remove old public/ directory
+# 3) run hugo to generate a new public/
+#
+# This script only improves console output (colors, timestamps, status messages)
+# and does not change the actual commands or their order.
+
 # ------------------------
-# Ausgabe-Formatierung
+# Output formatting
 # ------------------------
-# Verwende \033 statt \e für bessere Portabilität
+# Use \033 instead of \e for better portability
 RED="\033[1;31m"
 GREEN="\033[1;32m"
 YELLOW="\033[1;33m"
@@ -10,62 +20,43 @@ BLUE="\033[1;34m"
 BOLD="\033[1m"
 RESET="\033[0m"
 
-ts() { date '+%Y-%m-%d %H:%M:%S'; }
-# Nutze printf "%b" statt echo -e – portable und zuverlässig
-info()  { printf "%b\n" "${BOLD}${BLUE}[INFO] $(ts)${RESET} $*"; }
+# Print helpers: ensure format string and arguments are passed separately
+info()  { printf "%b\n" "${BOLD}${BLUE}[INFO] ${RESET} $*"; }
 step()  { printf "\n%b\n" "${YELLOW}---- ${BOLD}$*${RESET}${YELLOW} ----${RESET}"; }
-success(){ printf "%b\n" "${GREEN}[ OK ] $(ts) ${RESET}${BOLD}$*${RESET}"; }
-failure(){ printf "%b\n" "${RED}[ ERR ] $(ts) ${RESET}${BOLD}$*${RESET}"; }
+success(){ printf "%b\n" "${GREEN}[ OK ] ${RESET}${BOLD}$*${RESET}"; }
+failure(){ printf "%b\n" "${RED}[ ERR ] ${RESET}${BOLD}$*${RESET}"; }
 
-# Track elapsed time with built-in SECONDS
-START_TIME=$SECONDS
-
-# Decorative header (printf statt echo -e)
+# Decorative header
 printf "%b\n" "${BOLD}${BLUE}==============================================${RESET}"
 printf "%b\n" "${BOLD}${BLUE}=     Hugo Build — Update & Create public/     =${RESET}"
-printf "%b\n\n" "${BOLD}${BLUE}==============================================${RESET}"
+printf "%b" "${BOLD}${BLUE}==============================================${RESET}"
 
-info "Starte build.sh"
 
 # STEP 1: git pull
-step "1) Repository aktualisieren"
-info "Ausführen: git pull"
-STEP_START=$SECONDS
+step "1) Update repository"
+info "Running: git pull"
 if git pull; then
-    STEP_ELAPSED=$(( SECONDS - STEP_START ))
-    success "Repository aktualisiert (Dauer: ${STEP_ELAPSED}s)"
+    success "Repository updated"
 else
-    STEP_ELAPSED=$(( SECONDS - STEP_START ))
-    failure "git pull schlug fehl — fahre fort (Fehlercode: $?) — Dauer: ${STEP_ELAPSED}s"
+    failure "git pull failed — continuing anyway (exit code: $?)"
 fi
 
 # STEP 2: rm -rf public/
-step "2) Altes public/ Verzeichnis entfernen"
-info "Ausführen: rm -rf public/"
-STEP_START=$SECONDS
+step "2) Remove old public/ directory"
+info "Running: rm -rf public/"
 if rm -rf public/; then
-    STEP_ELAPSED=$(( SECONDS - STEP_START ))
-    success "Altes public/ entfernt (falls vorhanden) (Dauer: ${STEP_ELAPSED}s)"
+    success "Old public/ removed (if present)"
 else
-    STEP_ELAPSED=$(( SECONDS - STEP_START ))
-    failure "Löschen von public/ schlug fehl oder Verzeichnis existierte nicht (Fehlercode: $?) — Dauer: ${STEP_ELAPSED}s"
+    failure "Removing public/ failed or directory did not exist (exit code: $?)"
 fi
 
 # STEP 3: hugo
-step "3) Neue public/ Dateien erzeugen (hugo)"
-info "Ausführen: hugo"
-STEP_START=$SECONDS
+step "3) Generate new public/ files (hugo)"
+info "Running: hugo"
 if hugo; then
-    STEP_ELAPSED=$(( SECONDS - STEP_START ))
-    success "Hugo-Build erfolgreich (Dauer: ${STEP_ELAPSED}s)"
+    success "Hugo build succeeded"
 else
-    STEP_ELAPSED=$(( SECONDS - STEP_START ))
-    failure "Hugo-Build schlug fehl (Fehlercode: $?) — Dauer: ${STEP_ELAPSED}s"
+    failure "Hugo build failed (exit code: $?)"
 fi
 
-ELAPSED=$(( SECONDS - START_TIME ))
-
-printf "%b\n" "\n${BOLD}Zusammenfassung:${RESET}"
-printf "%b\n" "  Gesamtzeit: ${BOLD}${ELAPSED}s${RESET}"
-
-printf "%b\n\n" "${GREEN}Fertig. Danke!${RESET}"
+printf "%b\n" "${GREEN}Done. Thanks!${RESET}"
