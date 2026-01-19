@@ -10,14 +10,7 @@ enableBreadcrumb: true
     width="400"
 >}}
 
-{{< figure
-    src="/images/projects/cabo-counter/App_Store_Badge_DE_RGB_wht.svg"
-    alt="Lade im App Store Badge"
-    width="120"
-    link="https://apps.apple.com/de/app/cabo-counter/id6751843294"
->}}
-
-### Tracke deine Cabo Punkte!
+## Tracke deine Cabo Punkte!
 
 Mit Cabo Counter behältst du beim Cabo spielen immer den Überblick! Egal ob beim Spieleabend, auf Reisen oder in der
 Pause, die App übernimmt das Punktezählen für dich. Einfach Spieler:innen hinzufügen und Modus auswählen, die Ergebnisse
@@ -29,15 +22,20 @@ Die übersichtliche Spielansicht zeigt dir jederzeit den aktuellen Stand, währe
 den Spielverlauf dokumentieren. Du kannst Spiele speichern, exportieren und auf anderen Geräten weiterführen, ideal für
 unterwegs oder spontane Runden. So bleibt das Punktezählen immer fair, schnell und unkompliziert.
 
-## Ressourcen
+## Links
+
+### Ressourcen
 
 {{< cards >}}
+    {{< card link="https://apps.apple.com/de/app/cabo-counter/id6751843294" title="Cabo Counter im App Store" icon="device-mobile">}}
+    {{< card link="" title="Cabo Counter im  Play Store" icon="device-mobile" >}}
+    {{< card link="https://cabocounter.felixkirchner.de" title="Cabo Counter - Landing Page" icon="globe-alt" >}}
     {{< card link="https://github.com/flixcoo/cabo-counter" title="Repository" icon="code" >}}
     {{< card link="https://github.com/flixcoo/cabo-counter/wiki" title="Wiki" icon="book-open" >}}
     {{< card link="../cabo-counter/privacy" title="Datenschutzerklärung" icon="shield-check">}}
 {{< /cards >}}
 
-## Hilfe
+### Hilfe
 
 {{< cards >}}
     {{< card link="mailto:cabocounter@felixkirchner.de" title="E-Mail schreiben" icon="mail">}}
