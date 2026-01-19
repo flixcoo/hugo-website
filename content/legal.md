@@ -1,8 +1,8 @@
 ---
 title: Impressum
 comments: false
-params:
-    showTitle: true
+enableBreadcrumb: false
+showTitle: true
 ---
 
 ## Angaben gemäß § 5 TMG
