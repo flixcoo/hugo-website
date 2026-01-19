@@ -12,7 +12,7 @@ showTitle: false
 {{< card link="https://github.com/flixcoo/8-bit_communication" title="Repository" icon="code" >}}
 {{< /cards >}}
 
-Dieses Projekt war Teil des Moduls "Hardwarepraktikum II (C405)" meines Bachelorstudiums an
+Dieses Projekt war Teil des Moduls _Hardwarepraktikum II (C405)_ meines Bachelorstudiums an
 der [HTWK Leipzig](https://htwk-leipzig.de). Im Wintersemester 2023/24 habe ich in Zusammenarbeit mit meinem
 Kommilitonen Quentin Kleinert eine Binäruhr auf Basis des ATmega48A Mikrocontrollers entwickelt. Dies war einer von
 insgesamt vier praktischen Prüfungen des Kurses.
