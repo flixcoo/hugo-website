@@ -1,0 +1,11 @@
+services:
+  hugo:
+    build: .
+    container_name: hugo-website
+    networks:
+      - web
+    restart: unless-stopped
+
+networks:
+  web:
+    external: true
