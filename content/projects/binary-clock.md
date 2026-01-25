@@ -1,10 +1,10 @@
 ---
 title: ATmega48A Binary Clock
 toc: true
+type: docs
 showTitle: false
+enableBreadcrumb: true
 ---
-
-# ATmega48A Binary Clock
 
 ---
 

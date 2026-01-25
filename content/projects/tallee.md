@@ -1,6 +1,8 @@
 ---
 title: Tallee
 toc: false
+enableBreadcrumb: true
+type: docs
 ---
 
 {{< figure

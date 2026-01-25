@@ -2,6 +2,8 @@
 title: 8-Bit-Kommunikationssystem
 toc: true
 showTitle: false
+enableBreadcrumb: true
+type: docs
 ---
 
 # 8-Bit-Kommunikationssystem

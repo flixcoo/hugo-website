@@ -44,7 +44,7 @@ params:
     width: full
 
   layout:
-    sidebar = false
+    sidebar = true
 
   banner:
     key: 'announcement-cabo-counter'

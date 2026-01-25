@@ -1,6 +1,8 @@
 ---
 title: WatchWise
 toc: true
+type: docs
+enableBreadcrumb: true
 ---
 
 {{< figure
