@@ -18,13 +18,11 @@ width="400"
 {{< card link="https://cabocounter.felixkirchner.de" title="Cabo Counter - Landing Page" icon="globe-alt" >}}
 {{< /cards >}}
 
-## Links
+## Ressourcen
 
 {{< cards >}}
-{{< card link="mailto:cabocounter@felixkirchner.de" title="E-Mail schreiben" icon="mail" >}}
+{{< card link="mailto:cabocounter@felixkirchner.de" title="Kontakt" icon="mail" >}}
 {{< card link="https://github.com/flixcoo/cabo-counter/issues" title="Bug melden" icon="github" >}}
-{{< card link="https://github.com/flixcoo/cabo-counter" title="Repository" icon="code" >}}
-{{< card link="../cabo-counter/privacy" title="Datenschutzerklärung" icon="shield-check" >}}
 {{< /cards >}}
 
 ## Die Entstehung des Cabo Counter
@@ -119,5 +117,9 @@ da ich lange nicht wusste, wie lange es wohl dauern würde, bis es dieses Projek
 Store schafft. Aktuell arbeite ich an einer Android-Optimierten Version der App, die hoffentlich im Frühjahr 2026 dann
 erscheinen kann. Meinen Blog-Artikel zum Cabo-Counter Release kannst du [hier](../../blog/2025-10-01.md) lesen.
 
+## Links
 
-
+{{< cards >}}
+{{< card link="https://github.com/flixcoo/cabo-counter" title="Repository" icon="code" >}}
+{{< card link="../cabo-counter/privacy" title="Datenschutzerklärung" icon="shield-check" >}}
+{{< /cards >}}
