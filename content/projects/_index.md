@@ -19,10 +19,10 @@ Hier findest du alle meine bisherigen Projekte.
         subtitle="Eine App zum Durchstöbern von Filmen und Serien sowie zum Verwalten von Watchlists."
     >}}
     {{< card
-    link="tallee"
-    title="Tallee"
-    image="/images/projects/tallee/tallee-logo.webp"
-    subtitle="Eine App zum Tracken von Ergebnissen in Karten- und Gesellschaftsspielen."
+        link="tallee"
+        title="Tallee"
+        image="/images/projects/tallee/tallee-logo.webp"
+        subtitle="Eine App zum Tracken von Ergebnissen in Karten- und Gesellschaftsspielen."
     >}}
     {{< card 
         link="binary-clock" 
@@ -36,5 +36,10 @@ Hier findest du alle meine bisherigen Projekte.
         image="/images/projects/8-bit-communication/title.webp"
         subtitle="Ein Low-Level-Kommunikationssystem, das eine 8-Bit-Parallel-Datenübertragung zwischen zwei ATmega-Mikrocontrollern implementiert."
     >}}
-    
+    {{< card
+        link="db-streckenband"
+        title="DB Streckenband"
+        image="/images/projects/db-streckenband/db-streckenband.webp"
+        subtitle="Eine interaktive Webanwendung zur Visualisierung von Zugstrecken der Deutschen Bahn."
+    >}}
 {{< /cards >}}
