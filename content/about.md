@@ -41,8 +41,8 @@ Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit de
     >}}
     {{< user-card
     title="Mathis \"Sneeex\""
-    image="https://github.com/mathiskir.png"
-    link="https://github.com/mathiskir"
+    image="https://github.com/sneeex.png"
+    link="https://github.com/sneeex"
     subtitle="Flutter- & Python-Entwickler"
     >}}
     {{< user-card
