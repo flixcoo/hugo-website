@@ -12,17 +12,17 @@ Hier findest du alle meine bisherigen Projekte.
         image="/images/projects/cabo-counter/cabo-counter-logo.webp" 
         subtitle="Eine iOS App zum Tracken von Punkten für das Kartenspiel \"Cabo\""
     >}}
-    {{< card 
-        link="watchwise" 
-        title="WatchWise"
-        image="/images/projects/watchwise-logo.webp" 
-        subtitle="Eine App zum Durchstöbern von Filmen und Serien sowie zum Verwalten von Watchlists."
-    >}}
     {{< card
         link="tallee"
         title="Tallee"
         image="/images/projects/tallee/tallee-logo.webp"
         subtitle="Eine App zum Tracken von Ergebnissen in Karten- und Gesellschaftsspielen."
+    >}}
+    {{< card
+        link="watchwise"
+        title="WatchWise"
+        image="/images/projects/watchwise-logo.webp"
+        subtitle="Eine Android App zum Durchstöbern von Filmen und Serien sowie zum Verwalten von Watchlists."
     >}}
     {{< card
         link="db-streckenband"
