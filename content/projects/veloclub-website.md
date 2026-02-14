@@ -11,5 +11,8 @@ alt="Wow, such empty"
 width="400"
 >}}
 
-
 Ich habe leider noch keinen Text zu diesem Projekt verfasst. Schau doch später nochmal vorbei!
+
+{{< cards >}}
+{{< card link="https://github.com/flixcoo/veloclub-website" title="Repository" icon="code" >}}
+{{< /cards >}}
