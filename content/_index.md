@@ -24,9 +24,9 @@ Hier findest du Informationen über mich, meine Projekte und wie du mich erreich
         subtitle="Hier schreibe ich über aktuelle Themen und Projekte"
     >}}
     {{< card
-        link="/contact"
-        title="Kontakt"
-        icon="chat-alt-2"
-        subtitle="Hier kannst du mich erreichen :)"
+        link="/about"
+        title="Über mich"
+        icon="user"
+        subtitle="Erfahre mehr über mich :)"
     >}}
 {{< /cards >}}
