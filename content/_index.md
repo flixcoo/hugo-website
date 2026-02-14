@@ -10,14 +10,7 @@ Willkommen auf meiner Website :)
 Hier findest du Informationen über mich, meine Projekte und wie du mich erreichen kannst.
 
 ## Aktuelles
-
 {{< cards >}}
-    {{< card 
-        link="/projects/cabo-counter" 
-        title="Cabo Counter"
-        icon="device-mobile"
-        subtitle="Eine iOS App zum Tracken von Punkten im Kartenspiel \"Cabo\"" 
-    >}}
     {{< card 
         link="/projects/"
         icon="collection"
@@ -25,10 +18,15 @@ Hier findest du Informationen über mich, meine Projekte und wie du mich erreich
         subtitle="Eine Übersicht meiner bisherigen Projekte"
     >}}
     {{< card
-    link="/blog/"
-    icon="chat-alt"
-    title="Mein Blog"
-    subtitle="Hier schreibe ich über aktuelle Themen und Projekte"
-    
+        link="/blog/"
+        icon="chat-alt"
+        title="Mein Blog"
+        subtitle="Hier schreibe ich über aktuelle Themen und Projekte"
+    >}}
+    {{< card
+        link="/contact"
+        title="Kontakt"
+        icon="chat-alt-2"
+        subtitle="Hier kannst du mich erreichen :)"
     >}}
 {{< /cards >}}
