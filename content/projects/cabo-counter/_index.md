@@ -15,7 +15,7 @@ width="400"
 {{< cards >}}
 {{< card link="https://apps.apple.com/de/app/cabo-counter/id6751843294" title="Cabo Counter im App Store" icon="device-mobile">}}
 {{< card link="" title="Cabo Counter im Play Store" icon="device-mobile" >}}
-{{< card link="https://cabocounter.felixkirchner.de" title="Cabo Counter - Landing Page" icon="globe-alt" >}}
+{{< card link="https://cabocounter.app" title="Cabo Counter - Landing Page" icon="globe-alt" >}}
 {{< /cards >}}
 
 ## Ressourcen
