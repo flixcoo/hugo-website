@@ -5,11 +5,13 @@ comments: false
 
 Hier findest du alle meine bisherigen Projekte.
 
+## Mobile Apps
+
 {{< cards >}}
-    {{< card 
-        link="cabo-counter" 
-        title="Cabo Counter" 
-        image="/images/projects/cabo-counter/cabo-counter-logo.webp" 
+    {{< card
+        link="cabo-counter"
+        title="Cabo Counter"
+        image="/images/projects/cabo-counter/cabo-counter-logo.webp"
         subtitle="Eine iOS App zum Tracken von Punkten für das Kartenspiel \"Cabo\""
     >}}
     {{< card
@@ -25,6 +27,11 @@ Hier findest du alle meine bisherigen Projekte.
         image="/images/projects/watchwise-logo.webp"
         subtitle="Eine Android App zum Durchstöbern von Filmen und Serien sowie zum Verwalten von Watchlists."
     >}}
+{{< /cards >}}
+
+## Webseiten und -Apps
+
+{{< cards >}}
     {{< card
         link="db-streckenband"
         title="DB Streckenband"
@@ -37,6 +44,11 @@ Hier findest du alle meine bisherigen Projekte.
         image="/images/projects/veloclub-website/logo.png"
         subtitle="Eine OnePager React-Website für meine Band \"Véloclub\""
     >}}
+{{< /cards >}}
+
+## Hardware-Projekte
+
+{{< cards >}}
     {{< card 
         link="binary-clock" 
         title="ATmega48A Binäruhr" 
