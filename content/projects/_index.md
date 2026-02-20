@@ -3,7 +3,8 @@ title: Projekte
 comments: false
 ---
 
-Hier findest du alle meine bisherigen Projekte.
+Hier findest du alle meine bisherigen Projekte, von mobilen Apps über Webseiten bis hin zu Hardware-Projekten. Klick 
+auf die Karten um mehr über das jeweilige Projekt zu erfahren :)
 
 ## Mobile Apps
 
