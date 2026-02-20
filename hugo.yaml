@@ -96,12 +96,16 @@ menu:
       pageRef: /projects/cabo-counter
       weight: 1
       parent: projects
-    - name: 'WatchWise'
-      pageRef: /projects/watchwise
+    - name: 'Véloclub Webseite'
+      pageRef: /projects/veloclub-website
       weight: 2
       parent: projects
     - name: 'Binäruhr'
       pageRef: /projects/binary-clock
+      weight: 3
+      parent: projects
+    - name: 'Tallee'
+      pageRef: /projects/tallee
       weight: 3
       parent: projects
     - name: Suche
