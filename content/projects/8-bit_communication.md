@@ -6,13 +6,11 @@ enableBreadcrumb: true
 type: docs
 ---
 
-# 8-Bit-Kommunikationssystem
-
----
-
 {{< cards >}}
 {{< card link="https://github.com/flixcoo/8-bit_communication" title="Repository" icon="code" >}}
 {{< /cards >}}
+
+---
 
 Dieses Projekt war Teil des Moduls _Hardwarepraktikum II (C405)_ meines Bachelorstudiums an
 der [HTWK Leipzig](https://htwk-leipzig.de). Im Wintersemester 2023/24 habe ich in Zusammenarbeit mit meinem

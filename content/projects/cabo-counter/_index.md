@@ -14,16 +14,15 @@ width="400"
 
 {{< cards >}}
 {{< card link="https://apps.apple.com/de/app/cabo-counter/id6751843294" title="Cabo Counter im App Store" icon="device-mobile">}}
-{{< card link="" title="Cabo Counter im Play Store" icon="device-mobile" >}}
-{{< card link="https://cabocounter.app" title="Cabo Counter - Landing Page" icon="globe-alt" >}}
+{{< card link="https://github.com/flixcoo/cabo-counter" title="Repository" icon="code" >}}
 {{< /cards >}}
 
-## Ressourcen
+---
 
-{{< cards >}}
-{{< card link="mailto:cabocounter@felixkirchner.de" title="Kontakt" icon="mail" >}}
-{{< card link="https://github.com/flixcoo/cabo-counter/issues" title="Bug melden" icon="github" >}}
-{{< /cards >}}
+Der Cabo Counter ist mein erstes richtiges App Projekt, welches ich von Anfang bis Ende alleine umgesetzt habe. Es
+handelt sich dabei um eine Punkteverwaltungs-App für das Kartenspiel _Cabo_. Mit der App können Spieler:innen ihre 
+Punkte während des Spiels einfach und übersichtlich verwalten, ohne sich um das Zählen kümmern zu müssen. 
+Auf dieser Seite möchte ich dir einen kleinen Einblick in den Entwicklungsprozess hinter der App geben :)
 
 ## Die Entstehung des Cabo Counter
 
@@ -117,9 +116,10 @@ da ich lange nicht wusste, wie lange es wohl dauern würde, bis es dieses Projek
 Store schafft. Aktuell arbeite ich an einer Android-Optimierten Version der App, die hoffentlich im Frühjahr 2026 dann
 erscheinen kann. Meinen Blog-Artikel zum Cabo-Counter Release kannst du [hier](../../blog/2025-10-01.md) lesen.
 
-## Links
+## Ressourcen
 
 {{< cards >}}
-{{< card link="https://github.com/flixcoo/cabo-counter" title="Repository" icon="code" >}}
+{{< card link="mailto:cabocounter@felixkirchner.de" title="Kontakt" icon="mail" >}}
+{{< card link="https://github.com/flixcoo/cabo-counter/issues" title="Bug melden" icon="github" >}}
 {{< card link="../cabo-counter/privacy" title="Datenschutzerklärung" icon="shield-check" >}}
 {{< /cards >}}

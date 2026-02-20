@@ -11,11 +11,11 @@ alt="WatchWise Logo"
 width="400"
 >}}
 
----
-
 {{< cards >}}
 {{< card link="https://github.com/flixcoo/watchwise" title="Repository" icon="code" >}}
 {{< /cards >}}
+
+---
 
 Dieses Projekt war Teil des Moduls _Mobile Computing (C652)_ meines Bachelorstudiums an
 der [HTWK Leipzig](https://htwk-leipzig.de). Im Wintersemester 2024/25 habe ich in Zusammenarbeit mit meinen

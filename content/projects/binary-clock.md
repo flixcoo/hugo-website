@@ -6,11 +6,11 @@ showTitle: false
 enableBreadcrumb: true
 ---
 
----
-
 {{< cards >}}
 {{< card link="https://github.com/flixcoo/atmega48a-binary-clock" title="Repository" icon="code" >}}
 {{< /cards >}}
+
+---
 
 Dieses Projekt war Teil des Moduls _Hardwarepraktikum II (C405)_ meines Bachelorstudiums an
 der [HTWK Leipzig](https://htwk-leipzig.de). Im Wintersemester 2023/24 habe ich in Zusammenarbeit mit meinem

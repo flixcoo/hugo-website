@@ -17,6 +17,7 @@ Hier findest du alle meine bisherigen Projekte.
         title="Tallee"
         image="/images/projects/tallee/tallee-logo.webp"
         subtitle="Eine App zum Tracken von Ergebnissen in Karten- und Gesellschaftsspielen."
+        tag="Work in Progress"
     >}}
     {{< card
         link="watchwise"
