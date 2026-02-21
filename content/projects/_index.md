@@ -34,16 +34,16 @@ auf die Karten um mehr über das jeweilige Projekt zu erfahren :)
 
 {{< cards >}}
     {{< card
-        link="db-streckenband"
-        title="DB Streckenband"
-        image="/images/projects/db-streckenband/db-streckenband.webp"
-        subtitle="Eine interaktive Webanwendung zur Visualisierung von Zugstrecken der Deutschen Bahn."
-    >}}
-    {{< card
         link="veloclub-website"
         title="Véloclub Webseite"
         image="/images/projects/veloclub-website/logo.png"
         subtitle="Eine OnePager React-Website für meine Band \"Véloclub\""
+    >}}
+    {{< card
+        link="db-streckenband"
+        title="DB Streckenband"
+        image="/images/projects/db-streckenband/db-streckenband.webp"
+        subtitle="Eine interaktive Webanwendung zur Visualisierung von Zugstrecken der Deutschen Bahn."
     >}}
 {{< /cards >}}
 
