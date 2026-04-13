@@ -15,10 +15,10 @@ width="300"
 Mein Name ist Felix Kirchner, ich bin {{< age >}} Jahre alt, Entwickler sowie Student aus Leipzig.
 Nach meinem Bachelor in Informatik an der [Hochschule für Technik, Wirtschaft und Kultur Leipzig (HTWK Leipzig)](https://www.htwk-leipzig.de/)
 bestreite ich derzeit meinen Master in Informatik an der [Universität Leipzig](https://uni-leipzig.de).
-Nebenbei spiele ich Schlagzeug in der Band [Véloclub](https://instagram.com/veloclubband/) und bin gerne draußen Unterwegs.
+Nebenbei spiele ich Schlagzeug in der Band [Véloclub](https://veloclubband.de/) und bin gerne draußen Unterwegs.
 Ich bin ein ziemlicher Marvel-Nerd und liebe es, neue Technologien auszuprobieren.
 
-Aktuell arbeite ich viel mit Flutter, habe vor kurzem meine erste eigene App [Cabo Counter](projects/cabo-counter) veröffentlicht
+Aktuell arbeite ich viel mit Flutter, habe vor kurzem meine erste eigene App [Cabo Counter](/projects/cabo-counter) veröffentlicht
 und beschäftige mich mit Themen wie User Experience, Interface Design und Mobile Development.
 
 Falls du gerne mit mir in Kontakt treten möchtest, kannst du mir gerne eine [E-Mail schreiben](mailto:hi@felixkirchner.de) oder mich auf meinen [Socials](/contact) kontaktieren :)
