@@ -13,7 +13,7 @@ width="400"
 >}}
 
 {{< cards >}}
-{{< card link="https://apps.apple.com/de/app/cabo-counter/id6751843294" title="Cabo Counter im App Store" icon="device-mobile">}}
+{{< card link="https://cabocounter.app" title="Landing Page" icon="device-mobile">}}
 {{< card link="https://github.com/flixcoo/cabo-counter" title="Repository" icon="code" >}}
 {{< /cards >}}
 
@@ -121,5 +121,5 @@ erscheinen kann. Meinen Blog-Artikel zum Cabo-Counter Release kannst du [hier](.
 {{< cards >}}
 {{< card link="mailto:cabocounter@felixkirchner.de" title="Kontakt" icon="mail" >}}
 {{< card link="https://github.com/flixcoo/cabo-counter/issues" title="Bug melden" icon="github" >}}
-{{< card link="../cabo-counter/privacy" title="Datenschutzerklärung" icon="shield-check" >}}
+{{< card link="https://cabocounter.app/privacy" title="Datenschutzerklärung" icon="shield-check" >}}
 {{< /cards >}}
