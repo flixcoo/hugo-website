@@ -29,4 +29,10 @@ Hier findest du Informationen über mich, meine Projekte und wie du mich erreich
         icon="user"
         subtitle="Erfahre mehr über mich :)"
     >}}
+    {{< card
+    link="https://status.felixkirchner.de"
+    title="Status"
+    icon="status-online"
+    subtitle="Status meiner gehosteten Websites / Services"
+    >}}
 {{< /cards >}}
