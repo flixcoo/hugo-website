@@ -30,7 +30,7 @@ Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit de
     {{< user-card
     title="Yannick \"Gelbeinhalb\""
     image="https://github.com/gelbeinhalb.png"
-    link="https://yannick-weigert.de/"
+    link="https://github.com/gelbeinhalb/"
     subtitle="Python-Entwickler"
     >}}
     {{< user-card
@@ -44,12 +44,6 @@ Eine Liste an Leuten und Teams, die mich inspirieren, unterstützten oder mit de
     image="https://github.com/sneeex.png"
     link="https://github.com/sneeex"
     subtitle="Flutter- & Python-Entwickler"
-    >}}
-    {{< user-card
-    title="Leon \"Alexschlomo\""
-    image="https://github.com/Alexschlomo.png"
-    link="https://github.com/Alexschlomo"
-    subtitle="Java-Entwickler & Netzwerktechniker"
     >}}
     {{< user-card
     title="LIQUID Development"
