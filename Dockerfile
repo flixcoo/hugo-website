@@ -13,6 +13,9 @@ COPY . /src/
 # Pull latest changes from main branch
 RUN git -C /src pull origin main || true
 
+# Ensure theme submodules are available in the build context
+RUN git -C /src submodule update --init --recursive || true
+
 # Install specific Hugo version
 ARG HUGO_VERSION=0.152.2
 RUN curl -L "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" \
