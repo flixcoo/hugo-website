@@ -1,7 +1,7 @@
 name: "hugo-website"
 
 services:
-  hugo:
+  website:
     build: .
     image: "hugo-website:latest"
     container_name: "hugo-website"
